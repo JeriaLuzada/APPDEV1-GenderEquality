@@ -38,9 +38,8 @@
 }
 
 .Header{
-  flex-shrink: 0;
-  display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .sus-dev{
@@ -51,39 +50,42 @@
   font-style: normal;
   font-weight: 400;
   line-height: 50px;
-  padding-left: 71px;
+  padding-left: 50px;
   padding-top: 60px;
+  width: 100%;
 }
 
 .goal5{
   display: flex;
-  width: 700px;
-  height: auto;
-  flex-direction: column;
-  flex-shrink: 0;
   color: #C15F06;
   font-size: 50px;
   font-family: 'Oxygen', sans-serif;
   font-style: normal;
   font-weight: 400;
+  line-height: 50px;
+  padding-left: 65px;
+  width: 100%;
 }
 
 .header-desc{
   display: flex;
-  width: 550px;
-  flex-direction: column;
-  flex-shrink: 0;
   color: #000;
-  text-align: center;
   font-size: 20px;
   font-family: 'Oxygen', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0.9px;
-  padding-left: 111px;
+  letter-spacing: 1px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
 }
 
 .header-png{
   display: flex;
+  width: 100%;
+}
+
+.row-width{
+  width: 100%;
 }
