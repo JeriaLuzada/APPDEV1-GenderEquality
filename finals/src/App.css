@@ -1,4 +1,4 @@
-body{
+body {
   background: #FCC99B;
 }
 
@@ -21,12 +21,13 @@ body{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.navbar{
+.navbar {
   color: #000;
   font-size: 35px;
   font-family: Oxygen;
@@ -34,4 +35,49 @@ body{
   font-weight: 400;
   line-height: 35px;
   letter-spacing: -0.35px;
+}
+
+.key-img {
+  max-width: 100%;
+  height: 60%;
+}
+
+.key-container {
+  position: relative;
+}
+
+.key-center {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  left: 0;
+  background-color: #FCC99B;
+  opacity: 0.67;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.key-container:hover .key-center {
+  bottom: 0;
+  height: 100%;
+}
+
+.key-text {
+  font-family: Lato;
+  font-size: 30px;
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #000000; /* Set text color to black */
+  opacity: 1; /* Set text opacity to 100% */
+}
+
+/* Optional: Adjust spacing and alignment of the key text */
+.key-text strong {
+  display: block; /* Make the <strong> element a block level */
+  margin-bottom: 10px; /* Add some spacing below the <strong> element */
 }
