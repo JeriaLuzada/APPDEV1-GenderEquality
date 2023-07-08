@@ -21,13 +21,13 @@ const Navbar = () => {
                         About
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Key Issues</a></li>
+                        <li><a class="dropdown-item" href="#key_issues">Key Issues</a></li>
                         <li><a class="dropdown-item" href="/law">Laws and Policies</a></li>
                         <li><a class="dropdown-item" href="#">Refference</a></li>
                     </ul>
                     </li>
                     <li className="nav-item ms-4">
-                        <a className="nav-link news" href="#">News</a>
+                        <a className="nav-link news" href="#news">News</a>
                     </li>
                     <li className="nav-item ms-4">
                         <a className="nav-link contact" href="#">Contact</a>

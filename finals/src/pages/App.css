@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,17 +21,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.Header{
+.Header {
   align-items: center;
   width: 100%;
 }
 
-.sus-dev{
+.sus-dev {
   display: flex;
   color: #060606;
   font-size: 50px;
@@ -55,7 +45,7 @@
   width: 100%;
 }
 
-.goal5{
+.goal5 {
   display: flex;
   color: #C15F06;
   font-size: 50px;
@@ -67,7 +57,7 @@
   width: 100%;
 }
 
-.header-desc{
+.header-desc {
   display: flex;
   color: #000;
   font-size: 20px;
@@ -81,11 +71,59 @@
   width: 100%;
 }
 
-.header-png{
+.header-png {
   display: flex;
   width: 100%;
 }
 
-.row-width{
+.row-width {
   width: 100%;
+  
 }
+
+
+
+/* Footer */
+.hr-footer{
+  border: 4px solid rgb(0, 0, 0);
+}
+
+.footer{
+  background-color: #FCE2CA;
+}
+/* Footer */
+
+/* News Component */
+.btn{
+  background-color: #FCC99B;
+  color: #000000;
+  
+}
+
+.row-cols-1{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card{
+  text-align: justify;
+  background-color: #FCE2CA;
+}
+
+.card-title{
+  font-family: 'Roboto', serif;
+  font-weight: 600;
+}
+ .card-text{
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+ }
+
+.card-img-top{
+  padding: 5% 5% 0% 5%;
+}
+
+.fig{
+  padding: 0% 0% 0% 5%;
+}
+/* News Component */
