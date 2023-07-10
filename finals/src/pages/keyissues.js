@@ -3,7 +3,7 @@ import './App.css';
 import Img from './keyissues.jpg'
 function keyissues() {
     return (
-        <div id='key_issues'>
+        <div>
             <div className='key-container'>
                 <img className='key-img' src={Img} />
                 <div className='key-center'>
