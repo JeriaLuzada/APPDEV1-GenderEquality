@@ -4,13 +4,24 @@ import Navbar from './components/navbar';
 import Header from './pages/header'
 import KeyIssues from './pages/keyissues';
 import News from './pages/news';
+import Footer from './components/Footer';
+
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+  
   return (
     <div className="App">
-      <Navbar/>
-      <Header/>
-      <KeyIssues/>
-      <News />
+      <div className={`app-container ${darkMode ? 'dark-mode' : 'light-mode'}`} >
+        <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
+        <Header/>
+        <KeyIssues/>
+        <News />
+        <Footer/>
+      </div>
     </div>
   );
 }
