@@ -3,17 +3,17 @@ import Img1 from './img1.jpg'
 import Img2 from './img2.jpg'
 import Img3 from './img3.jpg'
 import Img4 from './img4.jpg'
-import Footer from '../components/Footer';
+
 
 function News() {
     return (
-        <div>
-            <div className='mt-5'>
+        <div className='news-container' style={{paddingTop: '30px', paddingBottom: '30px'}}>
+            <div style={{paddingTop: '30px;'}}>
                     <h1 className='news' id='news'>NEWS</h1>
             </div>
-            <div className="row row-cols-1 row-cols-md-4 g-5 mt-3">
+            <div className="row row-cols-1 row-cols-md-4 g-5">
                 <div className="col">
-                    <div className="card h-100">
+                    <div className="news-card card h-100">
                         <img src={Img1} className="card-img-top" /><figcaption className='fig'>23 June 2023</figcaption>
                         <div className="card-body">
                             <h5 className="card-title">Urgent reform needed to shield women and children from violence during custody battles</h5><br/>
@@ -23,7 +23,7 @@ function News() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card h-100">
+                    <div className="news-card card h-100">
                         <img src={Img2} className="card-img-top" alt="..." /><figcaption className='fig'>14 June 2023</figcaption>
                         <div className="card-body">
                             <h5 className="card-title">Türk calls for action to enable equal and meaningful participation of women in public life</h5><br/>
@@ -33,7 +33,7 @@ function News() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card h-100">
+                    <div className="news-card card h-100">
                         <img src={Img3} className="card-img-top" alt="..." /><figcaption className='fig'>12 June 2023</figcaption>
                         <div className="card-body">
                             <h5 className="card-title">New UN report reveals chronic bias against women over last decade</h5><br/>
@@ -43,7 +43,7 @@ function News() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card h-100">
+                    <div className="news-card card h-100">
                         <img src={Img4} className="card-img-top" alt="..." /><figcaption className='fig'>16 June 2023</figcaption>
                         <div className="card-body">
                             <h5 className="card-title">Women suffer disproportionately from ravages of drought, desertification</h5><br/>
@@ -52,7 +52,6 @@ function News() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 
