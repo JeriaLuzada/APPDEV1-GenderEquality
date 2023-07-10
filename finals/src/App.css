@@ -39,6 +39,7 @@ body {
   letter-spacing: -0.35px;
 }
 
+/* Key-issues css */
 .key-img {
   max-width: 100%;
   height: 60%;
@@ -60,6 +61,7 @@ body {
   height: 0;
   transition: .5s ease;
 }
+
 .key-container:hover .key-center {
   bottom: 0;
   height: 100%;
@@ -74,15 +76,46 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  color: #000000; /* Set text color to black */
-  opacity: 1; /* Set text opacity to 100% */
+  color: #000000;
+  /* Set text color to black */
+  opacity: 1;
+  /* Set text opacity to 100% */
 }
 
 /* Optional: Adjust spacing and alignment of the key text */
 .key-text strong {
-  display: block; /* Make the <strong> element a block level */
-  margin-bottom: 10px; /* Add some spacing below the <strong> element */
+  display: block;
+  /* Make the <strong> element a block level */
+  margin-bottom: 10px;
+  /* Add some spacing below the <strong> element */
 }
+
+.accordion-button.collapsed {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  background-color: #201D20;
+  color: white;
+  font-style: Lato;
+  
+
+}
+
+.accordion-collapse.collapse {
+  border: 30px solid #FCC99B;
+  background-color: #FDDDC0;
+  padding: 0;
+}
+
+.flush-collapseOne,
+.accordion-body {
+  text-align: start;
+  display: flex;
+  padding: 12px;
+}
+
+/* key-issues css end here */
+
 .card {
   background-color: FCE2CA;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
