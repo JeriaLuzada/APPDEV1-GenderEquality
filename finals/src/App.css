@@ -29,16 +29,6 @@ body {
   }
 }
 
-.navbar {
-  color: #000;
-  font-size: 35px;
-  font-family: Oxygen;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 35px;
-  letter-spacing: -0.35px;
-}
-
 /* Key-issues css */
 .key-img {
   max-width: 100%;
@@ -98,7 +88,6 @@ body {
   color: white;
   font-style: Lato;
   
-
 }
 
 .accordion-collapse.collapse {
@@ -154,3 +143,60 @@ body {
 .card-title{
   font-size: 15px;
 }
+
+/* App.css */
+.light-mode {
+  background-color: #FCC99B;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.navbar-container {
+  display: flex;
+  width: auto;
+  height: 70px;
+  padding: 16px 120px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  box-shadow: 0px 1.9932421445846558px 1.2400546073913574px 0px rgba(0, 0, 0, 0.02), 0px 4.528800010681152px 3.0655105113983154px 0px rgba(0, 0, 0, 0.02), 0px 7.882175445556641px 5.7285847663879395px 0px rgba(0, 0, 0, 0.03), 0px 12.521552085876465px 9.639091491699219px 0px rgba(0, 0, 0, 0.04), 0px 19.31982421875px 15.521984100341797px 0px rgba(0, 0, 0, 0.04), 0px 30.14707374572754px 24.8353271484375px 0px rgba(0, 0, 0, 0.05), 0px 50.048828125px 41.234458923339844px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+
+.dark-mode .navbar-container{
+  background-color: #333;
+}
+
+.light-mode .navbar-container{
+  background-color: #FCE2CA;
+}
+
+.dark-mode .news-container{
+  background-color: #222;
+}
+
+.dark-mode .footer-container{
+  background-color: #585454;
+}
+
+.light-mode .footer-container{
+  background-color: #FCE2CA
+}
+
+.light-mode .news-card{
+  background-color: #FCE2CA;
+}
+
+.dark-mode .news-card{
+  background-color: #585454;
+  color: white;
+}
+
+.dark-mode .continue-reading{
+  background: var(--backgrounds-bg-orang-20, #E2CEBC);
+
+}
+
