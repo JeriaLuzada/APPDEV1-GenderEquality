@@ -33,7 +33,6 @@
 }
 
 .sus-dev {
-  color: #060606;
   font-size: 50px;
   font-family: 'Oxygen', sans-serif;
   font-style: normal;
@@ -53,7 +52,6 @@
 }
 
 .header-desc {
-  color: #000;
   font-size: 20px;
   font-family: 'Oxygen', sans-serif;
   font-style: normal;
@@ -99,16 +97,9 @@
   height: 2px;
 }
 
-.footer{
-  background-color: #FCE2CA;
-}
-/* Footer */
-
 /* News Component */
 .btn{
   background-color: #FCC99B;
-  color: #000000;
-  
 }
 
 .row-cols-1{
@@ -146,7 +137,6 @@
   height: 44px;
   flex-direction: column;
   flex-shrink: 0;
-  color: #000;
   font-family: Roboto Serif;
   font-size: 40px;
   font-style: normal;
@@ -156,7 +146,7 @@
   text-transform: uppercase;
 }
 
-.card{
+.news-card{
   border: none;
 }
 
