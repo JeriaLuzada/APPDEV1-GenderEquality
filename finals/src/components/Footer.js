@@ -3,10 +3,8 @@ import { FaGoogle, FaFacebookF, FaGithub, FaTwitter, FaInstagram, FaReact, FaBoo
 export default class extends Component {
     render() {
         return (
-            <div className="">
-                <br />
-                <footer className='footer'>
-                    <br />
+            <div className="footer-container" style={{paddingTop: '20px'}}>
+                <footer>
                     <div className="container text-center text-md-start mt-4">
                         <hr className='hr-footer' />
                         <div className="row mt-2">
