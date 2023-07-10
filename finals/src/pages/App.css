@@ -33,42 +33,54 @@
 }
 
 .sus-dev {
-  display: flex;
   color: #060606;
   font-size: 50px;
   font-family: 'Oxygen', sans-serif;
   font-style: normal;
-  font-weight: 400;
   line-height: 50px;
-  padding-left: 50px;
-  padding-top: 60px;
   width: 100%;
+  text-align: center;
 }
 
 .goal5 {
-  display: flex;
   color: #C15F06;
   font-size: 50px;
   font-family: 'Oxygen', sans-serif;
   font-style: normal;
-  font-weight: 400;
   line-height: 50px;
-  padding-left: 65px;
   width: 100%;
+  text-align: center;
 }
 
 .header-desc {
-  display: flex;
   color: #000;
   font-size: 20px;
   font-family: 'Oxygen', sans-serif;
   font-style: normal;
-  font-weight: 400;
   line-height: 21px;
   letter-spacing: 1px;
-  padding-left: 40px;
-  padding-right: 40px;
+  text-align: center;
   width: 100%;
+  padding: 30px;
+}
+
+.learnMore{
+  display: inline-flex;
+  padding: 16px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #FFD7B4;
+  box-shadow: 0px 5px 15px 0px rgba(37, 44, 97, 0.15), 0px 2px 4px 0px rgba(136, 144, 194, 0.20);
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  border: none;
+  text-decoration: none;
 }
 
 .header-png {
@@ -81,11 +93,10 @@
   
 }
 
-
-
 /* Footer */
 .hr-footer{
-  border: 4px solid rgb(0, 0, 0);
+  background: #000;
+  height: 2px;
 }
 
 .footer{
@@ -124,6 +135,41 @@
 }
 
 .fig{
-  padding: 0% 0% 0% 5%;
+  padding: 1% 0% 0% 5%;
+  font-family: Roboto Serif;
 }
 /* News Component */
+
+.news{
+  display: flex;
+  width: 142px;
+  height: 44px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto Serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+
+.card{
+  border: none;
+}
+
+.continue-reading{
+  display: flex;
+  width: 150px;
+  height: 40px;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 4px;
+  background: #FEC088;
+  text-decoration: none;
+  color: #000;
+  border: none;
+}

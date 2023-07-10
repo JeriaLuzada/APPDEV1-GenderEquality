@@ -79,9 +79,9 @@ export default class extends Component {
                             <FaBootstrap />
                         </button>
                     </div>
-                    <div className="text-center p-2">
-                        COPYRIGHT@2023:
-                        <a className="text-reset fw-bold">APPDEV1 Final Project</a>
+                    <div className="text-center p-2 fw-bold">
+                        COPYRIGHT@2023 
+                        <a className="text-reset fw-bold" style={{textDecoration: 'none'}}> | APPDEV1 Final Project - Group 2(Gender Equality)</a>
                     </div>
                 </footer>
             </div>
