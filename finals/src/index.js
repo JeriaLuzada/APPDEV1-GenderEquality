@@ -2,11 +2,13 @@ import * as React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { ChakraProvider } from '@chakra-ui/react'
-
+import Reference from './pages/reference';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Issues from './pages/issues';
+import Contact from './pages/contact';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +18,9 @@ root.render(
         <Routes>
           <Route index element={<App />} />
           <Route path='/issues' element={<Issues />} />
+          <Route path='/reference' element={<Reference />} />
+          <Route path='/contact' element={<Contact />} />
+
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

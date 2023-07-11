@@ -55,25 +55,25 @@ export default class extends Component {
                         </div>
                     </div>
                     <div class="container p-4 pb-0">
-                        <button type="button" class="btn btn-outline-light btn-floating m-1" href="#">
+                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#1DA1F2'}}>
                             <FaTwitter />
                         </button>
-                        <button type="button" class="btn btn-outline-light btn-floating m-1" href="#">
+                        <button className="btn btn-floating m-1" href="#" style={{border: 'none'}}>
                             <FaGithub />
                         </button>
-                        <button type="button" class="btn btn-outline-light btn-floating m-1" href="#">
+                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#4267B2'}}>
                             <FaFacebookF />
                         </button>
-                        <button type="button" class="btn btn-outline-light btn-floating m-1" href="#">
+                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#4285F4'}}>
                             <FaGoogle />
                         </button>
-                        <button type="button" class="btn btn-outline-light btn-floating m-1" href="#">
+                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#C13584'}}>
                             <FaInstagram />
                         </button>
-                        <button type="button" class="btn btn-outline-light btn-floating m-1" href="#">
+                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#34cdeb'}}>
                             <FaReact />
                         </button>
-                        <button type="button" class="btn btn-outline-light btn-floating m-1" href="#">
+                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#8334eb'}}>
                             <FaBootstrap />
                         </button>
                     </div>
