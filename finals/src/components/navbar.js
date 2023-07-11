@@ -21,7 +21,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="/issues">Key Issues</a></li>
-                        <li><a class="dropdown-item" href="/#law">Laws and Policies</a></li>
+                        <li><a class="dropdown-item" href="#law">Laws and Policies</a></li>
                         <li><a class="dropdown-item" href="/reference">Reference</a></li>
                     </ul>
                     </li>
