@@ -77,12 +77,20 @@
 .footer-container{
   background: #FFD7B4;
 }
-/* -------end--------- */
 
-/* News */
 .btn{
   background-color: white;
 }
+/* -------end--------- */
+
+/* News */
+.btn-primary{
+  background-color: #FFD7B4;
+  color: #000;
+  margin-bottom: 0%;
+  border-color: #000;
+}
+
 
 .row-cols-1{
   margin-left: 5%;
