@@ -54,7 +54,7 @@ export default class extends Component {
                             <hr className='hr-footer' />
                         </div>
                     </div>
-                    <div class="container p-4 pb-0">
+                    <div class="container p-4 pb-0 text-center" >
                         <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#1DA1F2'}}>
                             <FaTwitter />
                         </button>

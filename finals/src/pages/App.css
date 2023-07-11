@@ -163,3 +163,12 @@
   color: #000;
   border: none;
 }
+
+/* Footer css */
+.issues-container{
+  background: #FEC088;
+}
+
+.footer-container{
+  background: #FFD7B4;
+}
