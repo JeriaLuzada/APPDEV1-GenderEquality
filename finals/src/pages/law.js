@@ -2,14 +2,14 @@ import React from 'react';
 import law from './law.png'
 function Law() {
   return (
-    <div>
+    <div id='law'>
       <div className='law'>
         <p className='article'>
           <div className='policies'>Laws and Policies </div>
           Articles 2 and 23 state that there can be no distinction or discrimination on the basis of gender, including the right to equal pay for work.
         </p>
-        <div>
-          <img src={law} className='pic'  alt="Law illustration" />
+        <div className='pic'>
+          <img src={law} className='pic' alt="Law illustration" />
         </div>
       </div>
       <div className="card-group">

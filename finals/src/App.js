@@ -5,6 +5,9 @@ import Header from './pages/header'
 import KeyIssues from './pages/keyissues';
 import News from './pages/news';
 import Footer from './components/Footer';
+import Help from './pages/help';
+import Law from './pages/law';
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,6 +22,9 @@ function App() {
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
         <Header/>
         <KeyIssues/>
+        <Law />
+        <Help/>
+        <hr/>
         <News />
         <Footer/>
       </div>

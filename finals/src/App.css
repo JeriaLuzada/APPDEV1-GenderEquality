@@ -138,7 +138,10 @@ body {
 }
 .pic{
   display: flex;
-  width: 100%;
+  width: 70%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .card-title{
   font-size: 15px;
@@ -151,7 +154,7 @@ body {
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #201D20;
   color: white;
 }
 
@@ -163,6 +166,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
+  background-color: #FCE2CA;
   box-shadow: 0px 1.9932421445846558px 1.2400546073913574px 0px rgba(0, 0, 0, 0.02), 0px 4.528800010681152px 3.0655105113983154px 0px rgba(0, 0, 0, 0.02), 0px 7.882175445556641px 5.7285847663879395px 0px rgba(0, 0, 0, 0.03), 0px 12.521552085876465px 9.639091491699219px 0px rgba(0, 0, 0, 0.04), 0px 19.31982421875px 15.521984100341797px 0px rgba(0, 0, 0, 0.04), 0px 30.14707374572754px 24.8353271484375px 0px rgba(0, 0, 0, 0.05), 0px 50.048828125px 41.234458923339844px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -175,7 +179,7 @@ body {
 }
 
 .dark-mode .news-container{
-  background-color: #222;
+  background-color: #201D20;
 }
 
 .dark-mode .footer-container{
@@ -183,7 +187,7 @@ body {
 }
 
 .light-mode .footer-container{
-  background-color: #FCE2CA
+  background-color: #FCE2CA;
 }
 
 .light-mode .news-card{
@@ -198,5 +202,29 @@ body {
 .dark-mode .continue-reading{
   background: var(--backgrounds-bg-orang-20, #E2CEBC);
 
+}
+
+.dark-mode .help-container{
+  background-color: #201D20;
+  color: white;
+}
+
+.dark-mode .title {
+  background-color: #585454;
+  color: #ffffff;
+}
+
+.dark-mode .text1 {
+  background-color: #585454;
+  color: #ffffff;
+}
+
+.dark-mode .text2 {
+  background-color: #585454;
+  color: #ffffff;
+}
+
+.dark-mode .worm {
+  background-color: #585454;
 }
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Img from './keyissues.jpg'
+import key from './keyissues.jpg'
 function keyissues() {
     return (
         <div>
             <div className='key-container'>
-                <img className='key-img' src={Img} />
+                <img className='key-img' src={key} />
                 <div className='key-center'>
                     <div className='key-text'>
                         <strong>Key Issues</strong>

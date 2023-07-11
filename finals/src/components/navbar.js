@@ -13,7 +13,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
             <div className="collapse navbar-collapse button-panel" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto me-0 mb-auto mb-lg-0">
                     <li className="nav-item">
-                        <a className="nav-link active home" aria-current="page" href="#">Home</a>
+                        <a className="nav-link active home" aria-current="page" href="/">Home</a>
                     </li>
                     <li className="nav-item dropdown ms-4">
                     <a className="nav-link dropdown-toggle about" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -21,15 +21,15 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="/issues">Key Issues</a></li>
-                        <li><a class="dropdown-item" href="/law">Laws and Policies</a></li>
-                        <li><a class="dropdown-item" href="#">Refference</a></li>
+                        <li><a class="dropdown-item" href="#law">Laws and Policies</a></li>
+                        <li><a class="dropdown-item" href="/reference">Reference</a></li>
                     </ul>
                     </li>
                     <li className="nav-item ms-4">
-                        <a className="nav-link nav-news" href="#news">News</a>
+                        <a className="nav-link news-nav" href="#news">News</a>
                     </li>
                     <li className="nav-item ms-4">
-                        <a className="nav-link contact" href="#">Contact</a>
+                        <a className="nav-link contact" href="/contact">Contact</a>
                     </li>
                 
                     <div className="search-container ms-4">
