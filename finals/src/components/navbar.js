@@ -26,7 +26,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                     </ul>
                     </li>
                     <li className="nav-item ms-4">
-                        <a className="nav-link nav-news" href="#news">News</a>
+                        <a className="nav-link news-nav" href="#news">News</a>
                     </li>
                     <li className="nav-item ms-4">
                         <a className="nav-link contact" href="/contact">Contact</a>
