@@ -154,7 +154,7 @@ body {
 }
 
 .dark-mode {
-  background-color: black;
+  background-color: #201D20;
   color: white;
 }
 
@@ -179,7 +179,7 @@ body {
 }
 
 .dark-mode .news-container{
-  background-color: #222;
+  background-color: #201D20;
 }
 
 .dark-mode .footer-container{
@@ -202,5 +202,29 @@ body {
 .dark-mode .continue-reading{
   background: var(--backgrounds-bg-orang-20, #E2CEBC);
 
+}
+
+.dark-mode .help-container{
+  background-color: #201D20;
+  color: white;
+}
+
+.dark-mode .title {
+  background-color: #585454;
+  color: #ffffff;
+}
+
+.dark-mode .text1 {
+  background-color: #585454;
+  color: #ffffff;
+}
+
+.dark-mode .text2 {
+  background-color: #585454;
+  color: #ffffff;
+}
+
+.dark-mode .worm {
+  background-color: #585454;
 }
 
