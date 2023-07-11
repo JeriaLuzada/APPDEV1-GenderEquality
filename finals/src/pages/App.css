@@ -1,32 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
+/* Header*/
 .Header {
   align-items: center;
   width: 100%;
@@ -90,6 +62,7 @@
   width: 100%;
   
 }
+/* -------end--------- */
 
 /* Footer */
 .hr-footer{
@@ -97,7 +70,16 @@
   height: 2px;
 }
 
-/* News Component */
+.issues-container{
+  background: #FEC088;
+}
+
+.footer-container{
+  background: #FFD7B4;
+}
+/* -------end--------- */
+
+/* News */
 .btn{
   background-color: white;
 }
@@ -116,10 +98,11 @@
   font-family: 'Roboto', serif;
   font-weight: 600;
 }
- .card-text{
+
+.card-text{
   font-family: 'Roboto', serif;
   font-weight: 400;
- }
+}
 
 .card-img-top{
   padding: 5% 5% 0% 5%;
@@ -129,7 +112,6 @@
   padding: 1% 0% 0% 5%;
   font-family: Roboto Serif;
 }
-/* News Component */
 
 .news{
   display: flex;
@@ -163,12 +145,84 @@
   color: #000;
   border: none;
 }
+/* -------end--------- */
 
-/* Footer css */
-.issues-container{
-  background: #FEC088;
+/* help */
+.help-container{
+  width: 100%;
 }
 
-.footer-container{
-  background: #FFD7B4;
+.title {
+  padding-top: 30px;
+  text-align: center;
+  font-size: large;
 }
+
+.secbody {
+  float: right;
+  margin-right: 70px;
+}
+
+.worm {
+  width: 196px;
+  height: 169px;
+  float: left;
+  background-color: #fce2ca;
+}
+
+.text1 {
+  background-color: #fce2ca;
+}
+
+.text2 {
+  background-color: #fce2ca;
+}
+
+.educ {
+  width: 100%;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fce2ca;
+  border-radius: 30px;
+}
+
+.econ {
+  width: 100%;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fce2ca;
+  border-radius: 30px;
+}
+
+.legal {
+  width: 100%;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fce2ca;
+  border-radius: 30px;
+}
+
+.chall {
+  width: 100%;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fce2ca;
+  border-radius: 30px;
+}
+
+.eng {
+  width: 100%;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fce2ca;
+  border-radius: 30px;
+}
+
+.inter {
+  width: 100%;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fce2ca;
+  border-radius: 30px;
+}
+/* -------end--------- */

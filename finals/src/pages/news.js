@@ -8,7 +8,7 @@ import Img4 from './img4.jpg'
 function News() {
     return (
         <div className='news-container' style={{ paddingTop: '30px', paddingBottom: '30px', margin: '30px' }}>
-            
+
             <div style={{ paddingTop: '30px;' }}>
                 <h1 className='news mb-5' id='news'>NEWS</h1>
             </div>
@@ -29,8 +29,8 @@ function News() {
                         <div className="card-body">
                             <h5 className="card-title">Türk calls for action to enable equal and meaningful participation of women in public life</h5><br />
                             <p className="card-text">The UN human rights head stated on Wednesday that immediate action is required to eradicate gender-based prejudice against women in public....</p>
+                            <a href="https://news.un.org/en/story/2023/06/1137687" className="continue-reading" >Continue Reading</a>
                         </div>
-                        <a href="https://news.un.org/en/story/2023/06/1137687" className="continue-reading" >Continue Reading</a>
                     </div>
                 </div>
                 <div className="col">
