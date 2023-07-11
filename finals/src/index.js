@@ -7,6 +7,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Issues from './pages/issues';
+import Contact from './pages/contact';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,7 @@ root.render(
           <Route index element={<App />} />
           <Route path='/issues' element={<Issues />} />
           <Route path='/reference' element={<Reference />} />
+          <Route path='/contact' element={<Contact />} />
 
         </Routes>
       </BrowserRouter>
