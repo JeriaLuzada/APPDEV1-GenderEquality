@@ -55,27 +55,27 @@ export default class extends Component {
                         </div>
                     </div>
                     <div class="container p-4 pb-0 text-center" >
-                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#1DA1F2'}}>
+                        <a className="btn btn-floating m-1" href="https://twitter.com/i/flow/login?redirect_after_login=%2F" target="_blank" style={{border: 'none', color: '#1DA1F2'}}>
                             <FaTwitter />
-                        </button>
-                        <button className="btn btn-floating m-1" href="#" style={{border: 'none'}}>
+                        </a>
+                        <a className="btn btn-floating m-1" href="https://github.com/JeriaLuzada/APPDEV1-GenderEquality" target="_blank" style={{border: 'none'}}>
                             <FaGithub />
-                        </button>
+                        </a>
                         <a className="btn btn-floating m-1" href="https://www.facebook.com/login/" target="_blank" style={{border: 'none', color: '#4267B2'}}>
                             <FaFacebookF />
                         </a>
-                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#4285F4'}}>
+                        <button className="btn btn-floating m-1" href="https://www.google.com/?safe=active&ssui=on" target="_blank" style={{border: 'none', color: '#4285F4'}}>
                             <FaGoogle />
                         </button>
-                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#C13584'}}>
+                        <a className="btn btn-floating m-1" href="https://www.instagram.com/" target='_blank' style={{border: 'none', color: '#C13584'}}>
                             <FaInstagram />
-                        </button>
-                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#34cdeb'}}>
+                        </a>
+                        <a className="btn btn-floating m-1" href="https://react.dev/" target='_blank' style={{border: 'none', color: '#34cdeb'}}>
                             <FaReact />
-                        </button>
-                        <button className="btn btn-link btn-floating m-1" href="#" style={{border: 'none', color: '#8334eb'}}>
+                        </a>
+                        <a className="btn btn-link btn-floating m-1" href="https://getbootstrap.com/" target='_blank' style={{border: 'none', color: '#8334eb'}}>
                             <FaBootstrap />
-                        </button>
+                        </a>
                     </div>
                     <div className="text-center p-2 fw-bold">
                         COPYRIGHT@2023 

@@ -73,8 +73,9 @@ import {
                           variant="ghost"
                           color="black"
                           _hover={{ border: '2px solid #1C6FEB' }}
-                          leftIcon={<MdLocationOn color="#FEC088" size="20px" />}>
-                          University of Baguio
+                          leftIcon={<MdLocationOn color="#FEC088" size="20px"  />}>
+                          <a href='https://www.google.com/maps/dir//CH8W%2B3X5,+Gen.+Luna+Rd,+Baguio,+2600+Benguet/@16.4151164,120.527436,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3391a15d8cb0dc9b:0xe282b2015f6debba!2m2!1d120.5974765!2d16.415128?entry=ttu' target='_blank'>University of Baguio</a>
+                          
                         </Button>
                       </VStack>
                     </Box>
