@@ -138,8 +138,7 @@ body {
 }
 
 .law-contents{
-  margin-top: 50px;
-  padding-right: 200px;
+  width: 100%;
 }
 
 .article{
@@ -161,13 +160,10 @@ body {
 }
 
 .pic{
-  display: flex;
-  width: 400px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: 170px;
-  align-content: center;
-    position: float;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    margin-right: 50px;
 }
 
 /* -------end--------- */
