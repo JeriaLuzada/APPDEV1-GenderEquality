@@ -167,6 +167,7 @@ body {
   margin-left: auto;
   margin-right: 170px;
   align-content: center;
+    position: float;
 }
 
 /* -------end--------- */
