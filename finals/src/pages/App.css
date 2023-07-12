@@ -172,10 +172,31 @@
 }
 
 .worm {
-  width: 196px;
-  height: 169px;
+  width: 200px;
+  height: 100%;
   float: left;
   background-color: #fce2ca;
+  align-content: flex-end ;
+}
+
+.worm-chal{
+  width: 180px;
+  height: 100%;
+  float: left;
+  background-color: #fce2ca;
+  align-content: flex-end ;
+}
+
+.worm-inter{
+  width: 230px;
+  height: 100%;
+  float: left;
+  background-color: #fce2ca;
+  align-content: flex-end ;
+}
+
+.help-content{
+  text-align: start;
 }
 
 .text1 {
