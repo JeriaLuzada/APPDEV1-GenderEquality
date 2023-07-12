@@ -4,7 +4,7 @@ function Law() {
   return (
     <div className='law-container' id='law'>
       <div className='law'>
-        <div>
+        <div className='law-contents'>
           <p className='policies'>Laws and Policies </p>
           <p className='article'>
             Articles 2 and 23 state that there can be no distinction or discrimination on the basis of gender, including the right to equal pay for work.
