@@ -7,7 +7,7 @@ function Law() {
         <div className='law-contents'>
           <p className='policies'>Laws and Policies </p>
           <p className='article'>
-            Articles 2 and 23 state that there can be no distinction or discrimination on the basis of gender, including the right to equal pay for work.
+            Articles 2 and 23 states that there can be no distinction or discrimination on the basis of gender, including the right to equal pay for work.
           </p>
         </div>
         <div className='pic'>
