@@ -5,14 +5,20 @@ import Footer from '../components/Footer';
 import '../components/App.css';
 import '../pages/App.css';
 import './App.css';
-function issues() {
+import { useState } from 'react';
+function Issues() {
+  const [darkMode, setDarkMode] = useState(false);
+
+    const toggleDarkMode = () => {
+      setDarkMode(!darkMode);
+    };
   return (
-    <div className='issues-container'>
-        <Navbar />
+    <div className={`issues-container ${darkMode ? 'dark-mode' : 'light-mode'}`}>
+        <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
         <IssuesComponents/>
         <Footer/>
         </div>
   )
 }
 
-export default issues
+export default Issues

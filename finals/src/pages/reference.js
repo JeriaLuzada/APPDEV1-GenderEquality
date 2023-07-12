@@ -4,11 +4,17 @@ import Navbar from '../components/navbar';
 import '../components/App.css';
 import './App.css';
 import Footer from '../components/Footer';
+import { useState } from 'react';
 
-function reference() {
+function Reference() {
+    const [darkMode, setDarkMode] = useState(false);
+
+    const toggleDarkMode = () => {
+      setDarkMode(!darkMode);
+    };
     return (
-        <div>
-            <Navbar />
+        <div className={` ${darkMode ? 'dark-mode' : 'light-mode'}`}>
+            <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
             <ReferenceComponents />
             <Footer/>
 
@@ -16,4 +22,4 @@ function reference() {
     )
 }
 
-export default reference
+export default Reference

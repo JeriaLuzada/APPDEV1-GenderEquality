@@ -18,7 +18,7 @@ const Feature = ({ title, text, icon }) => {
         {icon}
       </Flex>
       <Text fontWeight={600}>{title}</Text>
-      <Text color={'gray.600'}>{text}</Text>
+      <Text >{text}</Text>
     </Stack>
   );
 };
@@ -26,6 +26,7 @@ const Feature = ({ title, text, icon }) => {
 export default function WithLargeQuote() {
   return (
     <Stack
+    className='success'
       bg="#FEC088"
       py={16}
       px={8}
@@ -37,6 +38,7 @@ export default function WithLargeQuote() {
         fontSize={{ base: 'xl', md: '2xl' }}
         textAlign="center"
         maxW="3xl"
+        
         >
         Gender equality is a fundamental human right, but women face challenges like limited economic participation, unequal access to education, health and safety risks, and under representation in politics.  Promoting gender equality is crucial for international development goals, empowering women and girls, and addressing health and safety concerns.
       </Text>

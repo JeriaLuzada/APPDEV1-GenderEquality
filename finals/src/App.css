@@ -257,5 +257,9 @@ body {
   background-color: #201D20;
   color: white;
 }
+
+.dark-mode .success{
+background-color: #000000;
+}
 /* -------end--------- */
 
