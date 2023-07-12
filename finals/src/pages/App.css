@@ -140,19 +140,7 @@
   border: none;
 }
 
-.continue-reading{
-  display: flex;
-  width: 150px;
-  height: 40px;
-  padding: 8px 12px;
-  align-items: center;
-  gap: 12px;
-  border-radius: 4px;
-  background: #FEC088;
-  text-decoration: none;
-  color: #000;
-  border: none;
-}
+
 /* -------end--------- */
 
 /* help */
