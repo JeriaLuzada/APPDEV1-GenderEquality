@@ -61,7 +61,7 @@ export default class extends Component {
                         <button className="btn btn-floating m-1" href="#" style={{border: 'none'}}>
                             <FaGithub />
                         </button>
-                        <a className="btn btn-floating m-1" href="/https://www.facebook.com/?stype=lo&jlou=AfdZS1uW3ru8WTutbAYbdgN85WfiF-9k865d5S7sWqduJDkxjljJJ1GVhTp8Lrr9dIu_nfPzVw_XQasm6eq8dayaa6OE8lLu6T6FUCtQ0dJABw&smuh=45251&lh=Ac9nYQ8zUVM8ttu-IIA" target="_blank" style={{border: 'none', color: '#4267B2'}}>
+                        <a className="btn btn-floating m-1" href="https://www.facebook.com/login/" target="_blank" style={{border: 'none', color: '#4267B2'}}>
                             <FaFacebookF />
                         </a>
                         <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#4285F4'}}>
@@ -73,7 +73,7 @@ export default class extends Component {
                         <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#34cdeb'}}>
                             <FaReact />
                         </button>
-                        <button className="btn btn-floating m-1" href="#" style={{border: 'none', color: '#8334eb'}}>
+                        <button className="btn btn-link btn-floating m-1" href="#" style={{border: 'none', color: '#8334eb'}}>
                             <FaBootstrap />
                         </button>
                     </div>
