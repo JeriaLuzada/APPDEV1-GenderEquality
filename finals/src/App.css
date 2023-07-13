@@ -172,11 +172,11 @@ body {
   padding: 10px 20px;
 }
 
-.btn-primary:hover {
+.btn-secondary:hover {
   background-color: #FCC99B;
   color: #FCC99B;
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  box-shadow: 0 5px 15px gray;
 }
 /* -------end--------- */
 
