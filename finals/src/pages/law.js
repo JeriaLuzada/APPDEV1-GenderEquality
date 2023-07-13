@@ -15,9 +15,9 @@ function Law() {
         </div>
       </div>
 
-      <p>
+      <div className='pindut'>
         <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><b>Articles</b></button>
-      </p>
+      </div>
       <div class="row">
         <div class="col">
           <div class="collapse multi-collapse" id="multiCollapseExample1">
