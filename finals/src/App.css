@@ -162,10 +162,21 @@ body {
 .pic{
     display: flex;
     width: 400px;
-    height: 300px;
+    height: 200px;
     margin-right: 50px;
 }
-
+.pindut{
+  border: none;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.btn-primary:hover {
+  background-color: #FCC99B;
+  color: #FCC99B;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
 /* -------end--------- */
 
 /* light mode and dark mode */
