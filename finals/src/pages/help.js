@@ -46,7 +46,7 @@ export default function Help({ isDarkMode }) {
                     <div className={`help-mode ${isDarkMode ? 'text2' : 'text1'}`}>
                         <img className="worm" src={inter} />
                         <h3 className='text1'>Intersectionality and Inclusivity</h3>
-                        <p className='text2'>Promote inclusivity and accessibility in gender equality initiatives by acknowledging and addressing the unique experiences and challenges of individuals at the intersections of gender with race, ethnicity, sexuality, disability, etc., and involving marginalized communities in decision-making and policy development.</p>
+                        <p className='text2'>Promote inclusivity and accessibility in gender equality initiatives by acknowledging and addressing the unique experiences and challenges of individuals at the intersections of gender with race, ethnicity, sexuality, disability, etc.</p>
                     </div>
                 </div>
             </div>
