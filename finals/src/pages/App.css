@@ -140,15 +140,9 @@
   border: none;
 }
 
-
 /* -------end--------- */
 
 /* help */
-.help-container{
-  width: 100%;
-  height: auto;
-}
-
 .title {
   padding-top: 30px;
   text-align: center;
@@ -163,10 +157,6 @@
   align-content: flex-end ;
 }
 
-.help-content{
-  text-align: start;
-}
-
 .text1 {
   background-color: #fce2ca;
 }
@@ -175,51 +165,35 @@
   background-color: #fce2ca;
 }
 
-.educ {
+.help-container{
+  text-align: start;
   width: 100%;
-  margin: 30px;
-  padding: 20px;
-  background-color: #fce2ca;
-  border-radius: 30px;
+  display: flex;
+  height: auto;
 }
 
-.econ {
-  width: 100%;
-  margin: 30px;
-  padding: 20px;
-  background-color: #fce2ca;
-  border-radius: 30px;
+.worm-chal{
+  width: 180px;
+  height: 100%;
+  float: left;
+  align-content: flex-end ;
 }
 
-.legal {
-  width: 100%;
-  margin: 30px;
-  padding: 20px;
-  background-color: #fce2ca;
-  border-radius: 30px;
+.worm-inter{
+  width: 230px;
+  height: 100%;
+  float: left;
+  align-content: flex-end ;
 }
 
-.chall {
+.help-mode{
   width: 100%;
   margin: 30px;
   padding: 20px;
   background-color: #fce2ca;
   border-radius: 30px;
+  flex: 1;
+  padding: 1em;
 }
 
-.eng {
-  width: 100%;
-  margin: 30px;
-  padding: 20px;
-  background-color: #fce2ca;
-  border-radius: 30px;
-}
-
-.inter {
-  width: 100%;
-  margin: 30px;
-  padding: 20px;
-  background-color: #fce2ca;
-  border-radius: 30px;
-}
 /* -------end--------- */

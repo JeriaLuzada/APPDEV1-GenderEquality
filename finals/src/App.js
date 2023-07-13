@@ -23,7 +23,6 @@ function App() {
         <Header/>
         <KeyIssues/>
         <Law />
-        <hr/>
         <Help/>
         <hr/>
         <News />

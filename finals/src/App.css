@@ -171,6 +171,7 @@ body {
   font-size: 20px;
   padding: 10px 20px;
 }
+
 .btn-primary:hover {
   background-color: #FCC99B;
   color: #FCC99B;
@@ -208,6 +209,28 @@ body {
 
 .light-mode .navbar-container{
   background-color: #FCE2CA;
+}
+
+.light-mode .help{
+  background-color: #fce2ca;
+}
+
+.dark-mode .navbar-container{
+  background-color: #333;
+  color: white;
+}
+
+.light-mode .nav-mode{
+  background-color: #FCE2CA;
+}
+
+.dark-mode .nav-mode{
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode .nav-link{
+  color: white;
 }
 
 .dark-mode .news-container{
@@ -268,6 +291,10 @@ body {
 
 .dark-mode .success{
 background-color: #000000;
+}
+
+.dark-mode .toggle{
+  color: white;
 }
 /* -------end--------- */
 
