@@ -140,6 +140,17 @@
   border: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .col-news{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .col-news{
+    width: 100%;
+  }
+}
+
 /* -------end--------- */
 
 /* help */
