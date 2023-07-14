@@ -38,7 +38,7 @@ function News() {
                         <img src={Img3} className="card-img-top" alt="..." /><figcaption className='fig'>12 June 2023</figcaption>
                         <div className="card-body">
                             <h5 className="card-title">New UN report reveals chronic bias against women over last decade</h5><br />
-                            <p className="card-text">According to a new UN research released on Monday, there has been no progress in the amount of bias against women over the previous ten years, with nearly nine.....</p>
+                            <p className="card-text">According to a new UN research released on Monday, there has been no progress in the amount of bias against women over the previous ten years, with nearly nine out of 10 men and women worldwide, still holding such biases.</p>
                             <a href="https://news.un.org/en/story/2023/06/1137532" className="btn btn-secondary" target="_blank">Continue Reading</a>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ function News() {
                         <img src={Img4} className="card-img-top" alt="..." /><figcaption className='fig'>16 June 2023</figcaption>
                         <div className="card-body">
                             <h5 className="card-title">Women suffer disproportionately from ravages of drought, desertification</h5><br />
-                            <p className="card-text">Women's land rights are in the spotlight ahead of the World Day to Combat Desertification and Drought, observed on 17 June, at events around the....</p>
+                            <p className="card-text">Women's land rights are in the spotlight ahead of the World Day to Combat Desertification and Drought, observed on 17 June, at events around the world, from Kenya to Viet Nam,..</p>
                             <a href="https://news.un.org/en/story/2023/06/1137777" className="btn btn-secondary" target="_blank">Continue Reading</a></div>
                     </div>
                 </div>
