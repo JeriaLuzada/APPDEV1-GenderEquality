@@ -13,7 +13,7 @@ function News() {
                 <h1 className='news mb-5' id='news'>NEWS</h1>
             </div>
             <div className="row row-cols-md-4 g-5">
-                <div className="col">
+                <div className="col-news">
                     <div className="news-card card h-100">
                         <img src={Img1} className="card-img-top" /><figcaption className='fig'>23 June 2023</figcaption>
                         <div className="card-body">
@@ -23,7 +23,7 @@ function News() {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-news">
                     <div className="news-card card h-100">
                         <img src={Img2} className="card-img-top" alt="..." /><figcaption className='fig'>14 June 2023</figcaption>
                         <div className="card-body">
@@ -33,7 +33,7 @@ function News() {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-news">
                     <div className="news-card card h-100">
                         <img src={Img3} className="card-img-top" alt="..." /><figcaption className='fig'>12 June 2023</figcaption>
                         <div className="card-body">
@@ -43,7 +43,7 @@ function News() {
                         </div>
                     </div>
                 </div>
-                <div className="col">
+                <div className="col-news">
                     <div className="news-card card h-100">
                         <img src={Img4} className="card-img-top" alt="..." /><figcaption className='fig'>16 June 2023</figcaption>
                         <div className="card-body">
